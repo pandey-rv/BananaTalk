@@ -1,9 +1,14 @@
 var clickBtn = document.querySelector('#btn-translate');
 var userText = document.querySelector('#userText');
+var outputText = document.querySelector('#output');
 
 
-function clickHandler() {
-    console.log(userText.value);
-}
+outputText.innerText = "Ravi Pandey"
 
-clickBtn.addEventListener('click', clickHandler)
+
+// console.log(outputText.innerHTML);
+// function clickHandler() {
+//     outputText.innerText = userText.value;
+// }
+
+// clickBtn.addEventListener('click', clickHandler)
